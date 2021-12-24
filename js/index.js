@@ -27,7 +27,7 @@ function loadPhrase() {
   const phrase = document.getElementById("phrase");
 
   return fetch(
-    "http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote"
+    "https://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote"
   )
     .then(data => data.json())
     .then(json => {
