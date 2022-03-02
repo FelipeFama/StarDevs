@@ -13,7 +13,9 @@
 
 body {
   background: url("../img/bg.jpg");
+  background-size: cover;
   padding: 2%;
+  height: 100vh;
 }
 
 /*texts*/
@@ -28,8 +30,9 @@ p {
 /*header*/
 header h1 {
   color: var(--yellow-light);
-  font-size: 4em;
+  font-size: 6em;
   font-weight: 200;
+  text-align: center;
 }
 
 /*cards*/
@@ -41,7 +44,7 @@ main .cards-main {
 }
 
 main .cards-main .card-container {
-  width: 25%;
+  width: 28%;
   background-color: var(--white);
   padding: 1rem;
   border-radius: 0.3rem;

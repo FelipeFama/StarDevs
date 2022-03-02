@@ -31,7 +31,7 @@ function loadPhrase() {
   )
     .then(data => data.json())
     .then(json => {
-      btn.innerHTML = "Ver mais uma frase!";
+      btn.innerHTML = "See one more sentence!";
       phrase.innerHTML = `"${json.content}"`;
 
       phrase.animate(
